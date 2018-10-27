@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	font-family: Arial, Helvetica,sans-serif;
+	background-color: #f4f4f4;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+/** header   **/
+header{
+  background:#DCDCDC;
+  color:#ffffff;
+  padding-top:25px;
+  min-height:70px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header .header-logo{
+  float:left;
+}
+
+header .header-logo h2 a{
+  margin:0;
+  font-size: 30px;
+}
+
+header .nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current, header .current a{
+  color:green;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+
+}
+
+/*** form  **/
+.showcase{
+	min-height:1100px;
+  background:#2E8B57;
+
+  color:#ffffff;
+}
+.form{
+	width: 70%;
+	margin: auto;
+
+}
+.form-one{
+	float: left;
+	
+	
+}
+
+.form-two{
+	float: left;
+	padding-left: 100px;
+
+}
+.form span{
+  color: red;
+}
+.form h3{
+	margin: 10px 0px;
+	font-size: 20px;
+   padding: 20px 0px;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+}
+ .form-control{
+	width: 350px;
+	
+
+}
+.form-control input,.form-control textarea,.form-control select{
+     margin: 10px 0px;
+     color: #fff;
+     font-size: 15px;
+	   width: 280px;
+	   border:1px;
+	   padding: 13px;
+	   background-color:#20B2AA; 
+}
+
+.form-control select{
+     margin: 10px 0px;
+     color: #fff;
+     font-size: 15px;
+     width: 310px;
+     border:1px;
+     padding: 13px;
+     background-color:#20B2AA; 
+}
+
+.form input[type="submit"]{
+
+     margin: 130px -90px;
+     color: #fff;
+     font-size: 20px;
+	   width: 28%;
+	   border:1px;
+	   padding: 13px;
+	   background-color:#35424a; 
+     border-radius: 5px;
+}
+.form input[type="submit"]:hover{
+	background-color: #4b5052;
+  cursor: pointer;
+}
+/** slider  **/
+.slider{
+  width: 100%;
+  min-height:500px;
+  background:url('../img/slider.jpg') no-repeat 0;
+  text-align:center;
+  color:#ffffff;
+}
+.slider h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+.slider p{
+  font-size:20px;
+  padding-bottom: 20px;
+}
+
+.slider button{
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #800000;
+  border: none;
+  border-radius: 5px;
+}
+
+.slider button a{
+  font-size: 30px;
+  text-decoration: none;
+  color: #DCDCDC;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.slider button a:hover{
+  background-color: red;
+}
+/** footer **/
+footer p{
+  padding: 20px;
+  text-align: center;
+  background-color: #B0E0E6;
+  font-style: 20px;
+  color: #000;
+}
+/** table **/
+.heading {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+
+}
+.table h2{
+  text-align: center;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+  color: #F0F8FF;
+  background: linear-gradient(-120deg, #008080 50%, #ffed4b 50%);
+}
+.table {
+  margin: 30px;
+}
+.table table{
+  width: 60%;
+  margin: auto;
+
+}
+.table tr th,.table tr td{
+   border: 1px solid green;
+   padding: 20px;
+}
+
+/*** cv View **/
+.cv_view{
+  
+}
+.cv_view h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  
+}
+.cv_view-header{
+ margin-top: 20px;
+ overflow: hidden;
+}
+.cv_view-header-left{
+  width: 300px;
+  line-height: 25px;
+  float: left;
+
+}
+.cv_view-header-left h3{
+  padding: 10px 0px;
+
+}
+.cv_view-header-right{
+float: right;
+width: 50%;
+
+}
+.cv_view-header-right img{
+  width: 200px;
+  border: 1px solid #000;
+  float: right;
+}
+.objective{
+  overflow: hidden;
+  margin: 20px 0px;
+
+
+}
+.objective h3{
+  color:#fff;
+  padding: 10px;
+  margin: 10px 0px;
+  background: #000;
+}
+.objective h4{
+  color:#000;
+  padding: 10px;
+  margin: 10px 0px;
+  border-bottom:1px dotted #000;
+}
+.objective ul li{
+  font-size: 18px;
+   padding: 10px;
+   list-style-type: none;
+}
+.button-print button{
+       margin: 10px 0px;
+     color: #fff;
+     font-size: 19px;
+  width: 200px;
+  border:1px;
+  padding: 13px;
+  background-color:#35424a; 
+  cursor: pointer;
+  border-radius: 20px;
+}
